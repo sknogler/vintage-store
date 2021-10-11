@@ -17,7 +17,7 @@ public class Book {
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", genre='" + genre + '\'' +
-                ", instant_createTime=" + instant_createTime +
+                ", creationTime=" + creationTime +
                 ", yearOfPublication=" + yearOfPublication +
                 '}';
     }
