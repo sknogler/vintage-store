@@ -30,7 +30,9 @@ public class BookResource {
         book.genre = genre;
         book.creationTime = Instant.now();
 
-        logger.infof("Book created: %s", book);
-        return Response.status(201).entity(book).build();
+        logger.infof("Book created: " + book);
+        return Response.status(Response.Status.CREATED)
+                .entity(book)
+                .build();
     }
 }
