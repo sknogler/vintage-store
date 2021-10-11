@@ -3,12 +3,12 @@ package at.htl.microservices.book;
 import java.time.Instant;
 
 public class Book {
-    private String isbn13;
-    private String title;
-    private String author;
-    private String genre;
-    private Instant instant_createTime;
-    private int yearOfPublication;
+    public String isbn13;
+    public String title;
+    public String author;
+    public String genre;
+    public Instant creationTime;
+    public int yearOfPublication;
 
     @Override
     public String toString() {
