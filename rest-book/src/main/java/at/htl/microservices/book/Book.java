@@ -10,5 +10,15 @@ public class Book {
     private Instant instant_createTime;
     private int yearOfPublication;
 
-
+    @Override
+    public String toString() {
+        return "Book{" +
+                "isbn13='" + isbn13 + '\'' +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", genre='" + genre + '\'' +
+                ", instant_createTime=" + instant_createTime +
+                ", yearOfPublication=" + yearOfPublication +
+                '}';
+    }
 }
